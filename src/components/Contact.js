@@ -2,25 +2,33 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
 class Contact extends Component{
+    state = {
+        showContactInfo: false,
+    };
+
+
     render(){
 
-        const { name, email, phone } = this.props;
+        const { showContactInfo } = this.state;
+
+        const { name, email, phone } = this.props.contact;
         return (
-            <div>
-                <h4>{name}</h4>
-                <ul>
-                    <li>Email: {email}</li>
-                    <li>Phone: {phone}</li>
-                </ul>
+            <div className="card card-body mb-3">
+                <h4>{name} <i onClick={() => this.setState({showContactInfo: !this.state.showContactInfo})} className="fas fa-sort-down"/></h4>
+                {showContactInfo ? (
+                    <ul className="list-group">
+                        <li className="list-group-item">Email: {email}</li>
+                        <li className="list-group-item">Phone: {phone}</li>
+                    </ul>
+                ):null}
+
             </div>
         )
     }
 }
 
 Contact.propTypes = {
-    name: PropTypes.string.isRequired,
-    email: PropTypes.string.isRequired,
-    phone: PropTypes.string.isRequired
+    contact: PropTypes.object.isRequired,
 };
 
 export default Contact;
