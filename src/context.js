@@ -3,16 +3,16 @@ import React, {Component} from 'react';
 const Context = React.createContext();
 
 const reducer = (state, action) => {
-    // console.log("Reducer is accessed "+action.type);
     switch(action.type){
         case 'DELETE_CONTACT':
-            // const test = Object.keys(state).map(i => state[i]);
-            // console.log("Case 1. " + test);
-            // console.log("Case 2. " + test.dispatch);
             return {
                 ...state,
-                contacts: state.contacts.filter(
-                    contact => contact.id !== action.payload)
+                contacts: state.contacts.filter(contact => contact.id !== action.payload)
+            };
+        case 'ADD_CONTACT':
+            return {
+                ...state,
+                contacts: [action.payload, ...state.contacts]
             };
         default: return state;
     }
