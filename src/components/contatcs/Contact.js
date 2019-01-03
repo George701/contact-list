@@ -22,24 +22,23 @@ class Contact extends Component{
             <Consumer>
                 {value => {
                     return(
-                        <div className="card card-body mb-3">
+                        <div className="card card-body mb-3 cnt-block">
                             <h4>{name}
                                 <i
                                     onClick={() =>
                                         this.setState({showContactInfo: !this.state.showContactInfo})}
-                                    className="fas fa-sort-down"
+                                    className="fas fa-sort-down chevron"
                                     style={{cursor:'pointer'}}
                                 />
                                 <i
-                                    className="fas fa-times"
-                                    style={{cursor: 'pointer', float: 'right', color: 'red'}}
+                                    className="fas fa-times cros-nrubi"
                                     onClick={this.onDeleteClick.bind(this, id, value.dispatch)}
                                 />
                             </h4>
                             {showContactInfo ? (
-                                <ul className="list-group">
-                                    <li className="list-group-item">Email: {email}</li>
-                                    <li className="list-group-item">Phone: {phone}</li>
+                                <ul className="list-group cust-bk">
+                                    <li className="list-group-item"><span className="text-cust">Em</span>ail: {email}</li>
+                                    <li className="list-group-item"><span className="text-cust">Ph</span>one: {phone}</li>
                                 </ul>
                             ):null}
 
