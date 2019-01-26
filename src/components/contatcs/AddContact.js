@@ -66,7 +66,7 @@ class AddContact extends Component {
                 { value =>{
                     const { dispatch } = value;
                     return (
-                        <div className="card mb-3">
+                        <div className="card mb-3 center">
                             <div className="card-header bg-custom bold">Add Contact</div>
                                 <div className="card-body">
                                     <form onSubmit={this.onSubmit.bind(this, dispatch)}>
