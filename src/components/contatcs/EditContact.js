@@ -17,6 +17,7 @@ class EditContact extends Component {
         const res = await axios.get(`http://jsonplaceholder.typicode.com/users/${id}`);
 
         const contact = res.data;
+
         this.setState({
             name: contact.name,
             email: contact.email,
@@ -25,6 +26,7 @@ class EditContact extends Component {
     }
 
     onChange = e => this.setState({[e.target.name]: e.target.value});
+
 
     onSubmit = async (dispatch, e) => {
         e.preventDefault();
@@ -59,6 +61,7 @@ class EditContact extends Component {
         const res = await axios.put(`http://jsonplaceholder.typicode.com/users/${id}`, updContact);
 
         dispatch({type: 'UPDATE_CONTACT', payload: res.data});
+
 
         // Clear State
         this.setState({

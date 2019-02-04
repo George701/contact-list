@@ -2,7 +2,7 @@
   "name": "contact-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://George701.github.io/contact-list/",
+  "homepage": "https://George701.github.io/contsct-list",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
