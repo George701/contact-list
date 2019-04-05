@@ -2,7 +2,7 @@
   "name": "contact-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://George701.github.io/contsct-list",
+  "homepage": "https://george701.github.io/contact-list",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
@@ -19,7 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
