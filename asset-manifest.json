@@ -1,15 +1,15 @@
 {
-  "main.css": "/contsct-list/static/css/main.43048e55.chunk.css",
-  "main.js": "/contsct-list/static/js/main.6fbf0102.chunk.js",
-  "main.js.map": "/contsct-list/static/js/main.6fbf0102.chunk.js.map",
-  "static/css/1.a99b80ba.chunk.css": "/contsct-list/static/css/1.a99b80ba.chunk.css",
-  "static/js/1.2d993f6b.chunk.js": "/contsct-list/static/js/1.2d993f6b.chunk.js",
-  "static/js/1.2d993f6b.chunk.js.map": "/contsct-list/static/js/1.2d993f6b.chunk.js.map",
-  "runtime~main.js": "/contsct-list/static/js/runtime~main.28aa3cea.js",
-  "runtime~main.js.map": "/contsct-list/static/js/runtime~main.28aa3cea.js.map",
-  "static/css/1.a99b80ba.chunk.css.map": "/contsct-list/static/css/1.a99b80ba.chunk.css.map",
-  "static/css/main.43048e55.chunk.css.map": "/contsct-list/static/css/main.43048e55.chunk.css.map",
-  "index.html": "/contsct-list/index.html",
-  "precache-manifest.f97b2bc0b1f2d5d6605045bc2d2c99f0.js": "/contsct-list/precache-manifest.f97b2bc0b1f2d5d6605045bc2d2c99f0.js",
-  "service-worker.js": "/contsct-list/service-worker.js"
+  "main.css": "/contact-list/static/css/main.43048e55.chunk.css",
+  "main.js": "/contact-list/static/js/main.cd6fc7cc.chunk.js",
+  "main.js.map": "/contact-list/static/js/main.cd6fc7cc.chunk.js.map",
+  "static/css/1.a99b80ba.chunk.css": "/contact-list/static/css/1.a99b80ba.chunk.css",
+  "static/js/1.2d993f6b.chunk.js": "/contact-list/static/js/1.2d993f6b.chunk.js",
+  "static/js/1.2d993f6b.chunk.js.map": "/contact-list/static/js/1.2d993f6b.chunk.js.map",
+  "runtime~main.js": "/contact-list/static/js/runtime~main.377b31ea.js",
+  "runtime~main.js.map": "/contact-list/static/js/runtime~main.377b31ea.js.map",
+  "static/css/main.43048e55.chunk.css.map": "/contact-list/static/css/main.43048e55.chunk.css.map",
+  "static/css/1.a99b80ba.chunk.css.map": "/contact-list/static/css/1.a99b80ba.chunk.css.map",
+  "index.html": "/contact-list/index.html",
+  "precache-manifest.53e56e6e34eea79f698dc7efec5b01fe.js": "/contact-list/precache-manifest.53e56e6e34eea79f698dc7efec5b01fe.js",
+  "service-worker.js": "/contact-list/service-worker.js"
 }
